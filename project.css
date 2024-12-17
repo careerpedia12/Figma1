@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.bo.nav-bar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 55px;
+    justify-content: center;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.bo p a{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+.bo .nav-bar img{
+    width: 170px;
+    height: 60px;
+}
+.bo{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.bo.button{
+    flex: end;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+} 
+.bo .burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: none;
+}
+.line{
+    width: 25px;
+    height: 1px;
+    border: 2px solid;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.boxes.bo1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 150px;
+}
+.boxes .bo1 img
+{
+    width:700px;
+    height:700px;
+}
+.boxes .content.p2{
+    outline: none;
+    padding-top: 10px;
+}
+.content .p1{
+    font-size: 24px;
+    text-align: right;
+    top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    text-align: center;
+}
+.p2{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color:white;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.p1{
+    color: cornflowerblue;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .bo1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+} */
+
+.b1{
+    color: rgba(0,160, 177, 1);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.b2{
+    font-size: 90px;
+    padding-right: 150px;
+}
+.b3{
+    font-size: 16px;
+    color: rgba(161, 161, 161, 1);
+    
+}
+button{
+    border: none;
+}
+.content{
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.dec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*===================Media Queries===================*/
+
+@media(max-width:768px){
+    .bo .menu{
+        display: none;
+    }
+    .bo .burger{
+        display: flex;
+    }
+    .bo .button{
+        padding: 30px;
+    }
+    .boxes .bo1 img{
+        width: 500px;
+        height: 500px;
+
+    }
+    .boxes .content .b2{
+        font-size: medium;
+    }
+    .boxes .content{
+        width: auto;
+    }
+    .b2{
+        width: 90px;
+    }
+}
+@media(max-width:)
